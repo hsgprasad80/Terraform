@@ -8,10 +8,10 @@ variable "instance_type_medium" {
   default = "t2.medium"
 }
 variable "ubuntuami" {
-  default = "ami-0d221091ef7082bcf"
+  default = "ami-0915bcb5fa77e4892"
 }
 variable "redhatami" {
-  default = "ami-02354e95b39ca8dec"
+  default = "ami-03d315ad33b9d49c4"
 }
 variable "Privkey_name" {
   default = "private-key"
