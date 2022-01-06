@@ -16,7 +16,3 @@ variable "redhatami" {
 variable "Privkey_name" {
   default = "private-key"
 }
-variable "number" {
-  description = "Enter the number of nodes to be created"
-  type        = string
-}

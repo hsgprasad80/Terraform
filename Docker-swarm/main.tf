@@ -50,8 +50,6 @@ resource "aws_instance" "worker2" {
   }
 }
 
-*/
-
 resource "aws_instance" "worker1" {
   ami             = var.ami
   instance_type   = var.instance_type
